@@ -1,0 +1,42 @@
+.boxs{
+max-width: 20rem;
+min-height: 20rem;
+}
+
+.long-url{
+    max-height: 110px;
+    overflow-y: auto;
+}
+.fixeds{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* background: url('https://i0.wp.com/www.cssscript.com/wp-content/uploads/2019/01/Create-A-Background-Particles-System-With-JavaScript-And-Canvas-nodes.js.png') no-repeat center; */
+    background-size: cover;
+    padding: 20px;
+
+}
+.size{
+    width: 1.5rem;
+}
+.logout{
+    position: fixed;
+    bottom:20px;
+    right: 50px;
+    width: 100px;
+    padding: 14px;
+    background-color:brown;
+    border-radius: 50%;
+}
+.logout > img{
+    width: 100%;
+}
+.logout:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.message{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
